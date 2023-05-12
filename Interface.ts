@@ -1,7 +1,6 @@
-interface Task {
+interface Subject {
     id: number;
-    title: string;
-    completed: boolean;
+    name: string;
  }
  
  
@@ -9,5 +8,5 @@ interface Task {
      PORT: number
     };
     
-export { Task }
+export { Subject }
 export {listenPort}
